@@ -1,0 +1,73 @@
+{
+    "basic_info": {
+      "name": "Becca Kekerchen",
+      "titles": [ "Full-stack Developer", "Junior Database Developer"],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/netbek932",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/beczje",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "90"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "90"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "85"
+        },
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-plain",
+          "level": "65"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "60"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "60"
+        },
+        {
+          "name": "NGINX",
+          "class": "devicon-nginx-plain",
+          "level": "60"
+        }
+      ]
+    }
+  }
