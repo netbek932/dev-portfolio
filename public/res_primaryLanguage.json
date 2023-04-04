@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello",
+      "description": "I'm Becca. I'm responsible for creating unique full-stack applications with React, JavaScript and Node.js. I am proficient in PostgreSQL, MySQL, and MongoDB. Currently, I am working on .NET.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,38 +11,68 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "EcoDrive",
+        "startDate": "2023",
+        "description": "A mobile app that connects carpoolers to save the earth by reducing carbon emissions and traffic congestion. It allows users to find and join carpools with individuals who have a similar commute, providing a convenient and eco-friendly way to get to work or school.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/ecodrive/p1.jpg",
+          "images/portfolio/ecodrive/p2.jpg"
         ],
-        "url": "",
+        "demo": "ecodrive-demo.mp4",
+        "url": "https://github.com/rpp2205-boc-quartzite/eco_drive",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express.js"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-webpack-plain",
+            "name": "Webpack"
+          },
+          {
+            "class": "devicon-babel-plain",
+            "name": "Babel"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "Amazon Web Services"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Atelier-Frontend",
+        "startDate": "2022",
+        "description": "Project Atelier comprises of a complete redesign of our client's retail portal, designed to modernize the site and address all functionality requests. As part of the project, my responsibility was to develop the Questions and Answers module by implementing the front-end service using React and matching the UI wireframes in the business documents using CSS.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
+          "images/portfolio/atelier/p1.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
-        "url": "https://github.com",
+        "demo": "atelier-demo.mov",
+        "url": "https://github.com/netbek932/FEC",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -51,67 +81,102 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-jest-plain",
+            "name": "Jest"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "Amazon Web Services"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Atelier-Backend",
+        "startDate": "2023",
+        "description": "This project involved a significant rebuild of the back-end server, utilizing micro-service architectures for improved scalability. I designed and built the Product Overview API after completing an ETL process of 35+ million records of data from a legacy database to PostgreSQL. The deployment of the server with Docker and an NGINX load balancer and caching on AWS EC2 achieved horizontal scaling and a significant increase in RPS from 500 to 5000 while maintaining low latency and a 0% error rate, ensuring a high-quality user experience.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/namib/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
+        "demo": "",
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-express-original",
+            "name": "Express"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-nginx-plain",
+            "name": "NginX"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "Amazon Web Services"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Cuyahoga County Public Library",
+        "title": "IT Division Assistant / Branch Services Assistant",
+        "years": "11.2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Help Desk"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Jones Day",
+        "title": "Continuing Legal Education Assistant",
+        "years": "05.2019 - 10.2022",
         "mainTech": [
-          "Angular 7/8"
+          ""
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          ""
+        ]
+      },
+      {
+        "company": "Youngstown Business Incubator",
+        "title": "Commercialization and Entrepreneurship Project Coordinator",
+        "years": "05.2018 - 05.2019",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+
+        ]
+      },
+      {
+        "company": "Entrepreneurs Roundtable Accelerator",
+        "title": "NNYA Program Manager",
+        "years": "05.2017 - 09.2017",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+
         ]
       }
     ]
