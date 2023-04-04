@@ -172,7 +172,8 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: 350px;
+	max-height: 350px;
 }
 
 .polaroid span {
@@ -425,4 +426,57 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+	max-height: 350px;
+}
+
+.demo-modal {
+	overflow: auto;
+  background-color: whitesmoke;
+  z-index: 1;
+  margin:0 auto;
+  position: fixed;
+ 	width: 600px;
+  height: 800px;
+  left: 0;
+  right:0;
+  top: 50%;
+	clear: both;
+  -webkit-transform:translateY(-50%);
+  -moz-transform:translateY(-50%);
+  -ms-transform:translateY(-50%);
+  -o-transform:translateY(-50%);
+  transform:translateY(-50%);
+}
+
+.react-player-modal {
+  position: fixed;
+  padding: 10px;
+	z-index: 0;
+}
+
+.react-player-demo {
+  position: relative;
+	left: 0;
+	top: 0;
+	transform: none;
+}
+
+.close-modal {
+	float: right;
+	z-index: -1;
+}
+
+.resume-link {
+	float: right;
 }
