@@ -101,8 +101,7 @@
         "startDate": "2023",
         "description": "This project involved a significant rebuild of the back-end server, utilizing micro-service architectures for improved scalability. I designed and built the Product Overview API after completing an ETL process of 35+ million records of data from a legacy database to PostgreSQL. The deployment of the server with Docker and an NGINX load balancer and caching on AWS EC2 achieved horizontal scaling and a significant increase in RPS from 500 to 5000 while maintaining low latency and a 0% error rate, ensuring a high-quality user experience.",
         "images": [
-          "images/portfolio/namib/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "src/p1.jpg"
         ],
         "demo": "",
         "url": "https://github.com",
