@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
 import { X } from 'react-bootstrap-icons';
+import Ecodrive from '../ecodrive-demo.mp4';
+import Atelier from '../atelier-demo.mov';
+import Namib from '../p1.jpg';
 
 class Projects extends Component {
   constructor(props) {
@@ -18,14 +21,20 @@ class Projects extends Component {
       this.setState({ detailsModalShow: true, deps: data });
     };
     const demoModalShow = (demo) => {
-      this.setState({ demoModalShow: true, selectedDemo: demo})
+      let current = '';
+      if (demo === 'ecodrive-demo.mp4') {
+        current = Ecodrive
+      } else {
+        current = Atelier
+      }
+      this.setState({ demoModalShow: true, selectedDemo: current})
     }
     const demoModalClose = () => {
       this.setState({demoModalShow: false})
     }
 
     const selectedDemo = this.state.selectedDemo;
-    const showModal = this.state.demoModalShow
+    const showModal = this.state.demoModalShow;
 
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
@@ -83,7 +92,8 @@ class Projects extends Component {
                   ?
                   <ReactPlayer onClick={() => demoModalShow(projects.demo)}
                   className="react-player"
-                  url={projects.demo}
+                  // url={projects.demo}
+                  url={projects.demo === 'ecodrive-demo.mp4' ? Ecodrive : Atelier }
                   width={'400px'}
                   height={'500px'}
                   controls={false} muted={true} playing={true} >
@@ -91,7 +101,8 @@ class Projects extends Component {
                   :
                   <div className="react-player" width={'400px'} height={'500px'}>
                     <img
-                      src={projects.images[0]}
+                      // src={projects.images[0]}
+                      src={Namib}
                       alt="projectImages"
                       width={'450px'} height={'335px'}
                       style={{marginBottom: 0, paddingBottom: 0, position: 'relative' }}
@@ -104,12 +115,9 @@ class Projects extends Component {
                   <p className="project-title-settings mt-3">
                     {projects.title}
                   </p>
-                  {/* <div> */}
                     <p >{projects.description}</p>
 
                       <ul className="list-inline mx-auto">{tech}</ul>
-
-                  {/* </div> */}
                 </div>
               </div>
             </span>
