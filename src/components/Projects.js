@@ -114,6 +114,19 @@ class Projects extends Component {
                   <br />
                   <p className="project-title-settings mt-3">
                     {projects.title}
+                    {projects.url ? (
+                <a
+                  href={projects.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-href"
+                >
+                  <i
+                    className="fas fa-external-link-alt"
+                    style={{ marginLeft: "10px" }}
+                  ></i>
+                </a>
+              ) : null}
                   </p>
                     <p >{projects.description}</p>
 
