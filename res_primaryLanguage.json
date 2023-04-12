@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello",
-      "description": "I'm Becca. I'm responsible for creating unique full-stack applications with React, JavaScript and Node.js. I am proficient in PostgreSQL, MySQL, and MongoDB. Currently, I am working on .NET.",
+      "description": "I'm Becca. I'm responsible for creating unique full-stack applications with React/Node.js, JavaScript, and Bootstrap. I am proficient in PostgreSQL, MySQL, and MongoDB. Currently, I am working on applications using C# and .NET.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -13,7 +13,7 @@
       {
         "title": "EcoDrive",
         "startDate": "2023",
-        "description": "A mobile app that connects carpoolers to save the earth by reducing carbon emissions and traffic congestion. It allows users to find and join carpools with individuals who have a similar commute, providing a convenient and eco-friendly way to get to work or school.",
+        "description": "A mobile app that connects carpoolers to help reduce carbon emissions and traffic congestion. It allows users to find and join carpools with individuals who have a similar commute, providing a convenient and eco-friendly way to get to work or school.",
         "images": [
           "images/portfolio/ecodrive/p1.jpg",
           "images/portfolio/ecodrive/p2.jpg"
