@@ -127,6 +127,7 @@ class Projects extends Component {
                   ></i>
                 </a>
               ) : null}
+
                   </p>
                     <p >{projects.description}</p>
 
