@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dev-portfolio/static/css/main.53a57e1d.chunk.css",
-    "main.js": "/dev-portfolio/static/js/main.bbd459e2.chunk.js",
-    "main.js.map": "/dev-portfolio/static/js/main.bbd459e2.chunk.js.map",
+    "main.css": "/dev-portfolio/static/css/main.f9b0817d.chunk.css",
+    "main.js": "/dev-portfolio/static/js/main.64c108c2.chunk.js",
+    "main.js.map": "/dev-portfolio/static/js/main.64c108c2.chunk.js.map",
     "runtime-main.js": "/dev-portfolio/static/js/runtime-main.f7cc6054.js",
     "runtime-main.js.map": "/dev-portfolio/static/js/runtime-main.f7cc6054.js.map",
     "static/css/2.d8077e82.chunk.css": "/dev-portfolio/static/css/2.d8077e82.chunk.css",
-    "static/js/2.72086bc7.chunk.js": "/dev-portfolio/static/js/2.72086bc7.chunk.js",
-    "static/js/2.72086bc7.chunk.js.map": "/dev-portfolio/static/js/2.72086bc7.chunk.js.map",
+    "static/js/2.ffb3a024.chunk.js": "/dev-portfolio/static/js/2.ffb3a024.chunk.js",
+    "static/js/2.ffb3a024.chunk.js.map": "/dev-portfolio/static/js/2.ffb3a024.chunk.js.map",
     "index.html": "/dev-portfolio/index.html",
-    "precache-manifest.e1fb9fed6c60be47ac1841893b379d9a.js": "/dev-portfolio/precache-manifest.e1fb9fed6c60be47ac1841893b379d9a.js",
+    "precache-manifest.d50bda0dea21761bdb1744aa4fefef9d.js": "/dev-portfolio/precache-manifest.d50bda0dea21761bdb1744aa4fefef9d.js",
     "service-worker.js": "/dev-portfolio/service-worker.js",
     "static/css/2.d8077e82.chunk.css.map": "/dev-portfolio/static/css/2.d8077e82.chunk.css.map",
-    "static/css/main.53a57e1d.chunk.css.map": "/dev-portfolio/static/css/main.53a57e1d.chunk.css.map",
-    "static/js/2.72086bc7.chunk.js.LICENSE.txt": "/dev-portfolio/static/js/2.72086bc7.chunk.js.LICENSE.txt",
+    "static/css/main.f9b0817d.chunk.css.map": "/dev-portfolio/static/css/main.f9b0817d.chunk.css.map",
+    "static/js/2.ffb3a024.chunk.js.LICENSE.txt": "/dev-portfolio/static/js/2.ffb3a024.chunk.js.LICENSE.txt",
     "static/media/atelier-demo.mov": "/dev-portfolio/static/media/atelier-demo.9c0408e9.mov",
     "static/media/ecodrive-demo.mp4": "/dev-portfolio/static/media/ecodrive-demo.a05215ce.mp4",
     "static/media/myProfile.jpg": "/dev-portfolio/static/media/myProfile.2ce3a318.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.f7cc6054.js",
     "static/css/2.d8077e82.chunk.css",
-    "static/js/2.72086bc7.chunk.js",
-    "static/css/main.53a57e1d.chunk.css",
-    "static/js/main.bbd459e2.chunk.js"
+    "static/js/2.ffb3a024.chunk.js",
+    "static/css/main.f9b0817d.chunk.css",
+    "static/js/main.64c108c2.chunk.js"
   ]
 }
