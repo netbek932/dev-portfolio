@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactPlayer from "react-player";
-import { X } from 'react-bootstrap-icons';
+import { X , BoxArrowUpRight} from 'react-bootstrap-icons';
 import Ecodrive from '../ecodrive-demo.mp4';
 import Atelier from '../atelier-demo.mov';
 import Namib from '../p1.jpg';
@@ -87,7 +87,7 @@ class Projects extends Component {
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div className="player-wrapper">
+                <div className="player-wrapper" style={{ cursor: "pointer" }}>
                   {projects.demo !== ''
                   ?
                   <ReactPlayer onClick={() => demoModalShow(projects.demo)}
@@ -114,21 +114,22 @@ class Projects extends Component {
                   <br />
                   <p className="project-title-settings mt-3">
                     {projects.title}
-                    {projects.url ? (
-                <a
-                  href={projects.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
-              ) : null}
-
+                      {projects.url ? (
+                  <a
+                    href={projects.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-href"
+                  >
+                    {/* <i
+                      className="fas fa-external-link-alt"
+                      style={{ marginLeft: "10px" }}
+                    ></i> */}
+                    < BoxArrowUpRight style={{ marginLeft: "15px", marginBottom: "7px"}} size={15}/>
+                  </a>
+                ) : null}
                   </p>
+
                     <p >{projects.description}</p>
 
                       <ul className="list-inline mx-auto">{tech}</ul>
