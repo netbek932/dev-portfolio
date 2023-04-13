@@ -197,6 +197,10 @@ header h1 {
 	color: black;
 }
 
+.link-href:hover {
+	cursor: pointer;
+}
+
 .wave {
 	font-size: 160%;
 }
@@ -431,6 +435,10 @@ footer a:focus {
 .player-wrapper {
   position: relative;
   padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.player-wrapper:hover {
+  cursor: pointer;
 }
 
 .react-player {
